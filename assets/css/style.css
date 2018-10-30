@@ -1,5 +1,33 @@
 #header{
-
+    float: left;
+    width: 100%;
     background-color: #ffffff;
     border-block-start-color: #cccccc;
+}
+.container{
+
+    width: 960px;
+    margin: 0 auto;
+}
+
+#me{
+    float: left;
+    width: 200px;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("\assets\images\leaves.png");
+}
+#main-content{
+
+    background-color: #ffffff;
+}
+h1{
+    width: 100%;
+    float: left;
+    margin:10%;
+    background-color: #4aaaa5;
 }
