@@ -13,7 +13,7 @@ header{
 #me{
     float: left;
     width: 200px;
-    margin: 0%;
+    margin: 5% 70% 0% 0%;
     padding: 0%;
 }
 
@@ -21,7 +21,7 @@ header{
 body{
     margin: 0;
     padding: 0;
-    background-image: url("\assets\images\wheat.png");
+    background-image: url("../images/leaves.png");
 }
 
 /* this is my main content section that holds my image and paragraph about me */
@@ -29,13 +29,23 @@ body{
     margin: 30px 25px 15px 10%;
     background-color: #ffffff;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url("/assets/images/leaves.png");
+    background-image: url('../images/wheat.png');
 }
 /* My Name header */
 h1{
-    width: 100%;
+    width: 25%;
     padding: 1%;
     float: left;
     background-color: #4aaaa5;
+}
+
+h3{
+
+    float: right;
+    width: 15%;
+    background-color: blue;
+
 }
 
 /*first small teal footer */
