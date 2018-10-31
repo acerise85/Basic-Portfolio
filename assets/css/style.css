@@ -1,4 +1,4 @@
-#header{
+header{
     float: left;
     width: 100%;
     background-color: #ffffff;
@@ -9,34 +9,45 @@
     width: 960px;
     margin: 0 auto;
 }
-
+/* this is my image of me */
 #me{
     float: left;
     width: 200px;
     margin: 0%;
     padding: 0%;
 }
+
+/* this is the body behind my main-content section */
 body{
     margin: 0;
     padding: 0;
     background-image: url("\assets\images\wheat.png");
 }
+
+/* this is my main content section that holds my image and paragraph about me */
 #main-content{
-    margin:25px;
+    margin: 30px 25px 15px 10%;
     background-color: #ffffff;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+/* My Name header */
 h1{
     width: 100%;
+    padding: 1%;
     float: left;
     background-color: #4aaaa5;
 }
 
+/*first small teal footer */
 footer{
     width: 100%;
     float: left;
     background-color: #4aaaa5;
+    padding: 5px;
 }
+
 p{
-    float:left;
+    float:right;
+    margin: 0;
+    padding: 0;
 }
