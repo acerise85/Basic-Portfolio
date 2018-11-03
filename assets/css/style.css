@@ -7,19 +7,79 @@ body{
 
     margin: 0 auto;
     padding: 0 auto;
+    background-image: url("../images/wheat.png")
+    
 }
 
 #name{
-    background-color: blue;
+    color: burlywood;
     float: left;
-    width: 21%;
-    margin: 0% 0% 0% 25%;
-    padding: 0% -10% 0% 0%
+    width: 14%;
+    margin: 0% -5% 0% 25%;
+    padding: 0% -10% 10% 5%;
 }
 h4{
-    background-color: blueviolet;
+    color: burlywood;
     float: left;
-    width: 25%;
-    margin: 0% -15% 0% 0%;
-    padding: 0% -10%;
+    width: 18%;
+    margin: 1% -15% 10% 10%;
+    padding: 0%;
+    text-align: center;
+    
 }
+
+#about{
+    float: left;
+    background-color: white;
+    margin: 9.9% 0% 4% -81%;
+    padding: .7%;
+    width: 296px;
+    color: burlywood;
+    border-left-color: burlywood;
+    border-left-style: ridge;
+    border-left-width: 5px;
+    border-top-color: burlywood;
+    border-top-style: ridge;
+    border-top-width: 5px;
+    
+
+}
+
+.me{
+    float: left;
+    width: 200px;
+    margin: 14% 0% 5% -81%;
+    padding: 7% 6% 6% 6%;
+    background-color: #ffffff;
+    border-left-color: burlywood;
+    border-left-style: ridge;
+    border-left-width: 5px;
+    border-right-style: 0% hidden;
+    border-bottom-color: burlywood;
+    border-bottom-style: ridge;
+    border-bottom-width: 5px;
+    
+}
+aside{
+    float: right;
+    margin: -51.5% 0% 58% 40%;
+    background-color: #ffffff;
+    padding: 9.5% 6% 6% 6%;
+    border-right-color: burlywood;
+    border-right-style: ridge;
+    border-right-width: 6px;
+    border-left-style: 0% hidden;
+    border-bottom-color: burlywood;
+    border-bottom-style: ridge;
+    border-bottom-width: 5px;
+    border-top-color: burlywood;
+    border-top-style: ridge;
+    border-top-width: 5px;
+}
+
+#section{
+    background-color: fuchsia;
+    margin: 2%;
+    
+}
+
