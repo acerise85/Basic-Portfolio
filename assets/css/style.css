@@ -3,36 +3,32 @@
     margin: 0 auto;
 }
 
-/*main body */
-
 body{
 
     margin: 0 auto;
     padding: 0 auto;
-    background-image: url("../images/wheat.png");
+    background-image: url("../images/wheat.png")
+    
 }
 
-/* name header*/
 #name{
     color: burlywood;
     float: left;
     width: 14%;
     margin: 0% -5% 0% 25%;
-    padding: 0% -10% 10% 5%; 
+    padding: 0% -10% 10% 5%;
 }
-
-/* about contact portfolio link headers*/
 h4{
     color: burlywood;
     float: left;
     width: 18%;
     margin: 1% -15% 10% 10%;
     padding: 0%;
-    text-align: center;    
+    text-align: center;
+    
 }
 
-/*contact header*/
-#contact{
+#about{
     float: left;
     background-color: white;
     margin: 9.9% 0% 4% -81%;
@@ -45,17 +41,30 @@ h4{
     border-top-color: burlywood;
     border-top-style: ridge;
     border-top-width: 5px;
-    z-index: 2;
     
 
 }
 
-/* contact form*/
-aside{
+.me{
     float: left;
-    margin: -9% 4% 0% 6%;
+    width: 200px;
+    margin: 14% 0% 5% -81%;
+    padding: 7% 6% 6% 6%;
     background-color: #ffffff;
-    padding: 10%;
+    border-left-color: burlywood;
+    border-left-style: ridge;
+    border-left-width: 5px;
+    border-right-style: 0% hidden;
+    border-bottom-color: burlywood;
+    border-bottom-style: ridge;
+    border-bottom-width: 5px;
+    
+}
+aside{
+    float: right;
+    margin: -51.5% 0% 58% 40%;
+    background-color: #ffffff;
+    padding: 9.5% 6% 6% 6%;
     border-right-color: burlywood;
     border-right-style: ridge;
     border-right-width: 6px;
@@ -66,8 +75,11 @@ aside{
     border-top-color: burlywood;
     border-top-style: ridge;
     border-top-width: 5px;
-    z-index: -2;
 }
 
-
+#section{
+    background-color: fuchsia;
+    margin: 2%;
+    
+}
 
